@@ -1,5 +1,11 @@
+import LoginForm from "@/components/LoginForm";
+
 export default function Home() {
   return (
-    <div>Hola Mundo</div>
+    <>
+      <div className="flex items-center" >
+        <LoginForm />
+      </div>
+    </>
   )
 }
